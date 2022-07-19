@@ -37,6 +37,9 @@ public class CompilerErrors {
 		int noSemi = 10 //Syntax error, insert ";" to complete LocalVariableDeclarationStatement
 		
 		int x = 20; //Duplicate local variable x
+		
+		byte ruleBreaking = 500; //Type mismatch: cannot convert from int to byte
+
 	}
 
 }
