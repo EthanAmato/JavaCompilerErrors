@@ -39,7 +39,10 @@ public class CompilerErrors {
 		int x = 20; //Duplicate local variable x
 		
 		byte ruleBreaking = 500; //Type mismatch: cannot convert from int to byte
-
+		
+		
+		final int inchesInFoot = 12; //The final local variable inchesInFoot cannot be assigned. It must be blank and not using a compound assignment
+		inchesInFoot = 13;
 	}
 
 }
